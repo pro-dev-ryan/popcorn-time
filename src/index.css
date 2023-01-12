@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,600&family=Dosis:wght@300;400&family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cta a {
+  @apply px-8 mx-5 py-2 bg-amber-500 rounded font-semibold font-button tracking-widest  hover:bg-rose-600 hover:text-white;
+}
+
+.navLinks a {
+  @apply mx-8 font-semibold text-xl font-text text-red-600 hover:text-black;
+}
